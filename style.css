@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@500 & display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: url("../assets/backiee-278726.jpg");
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            /* faz com que o display alinhe tudo ao centro, sem o (min-heght) não centraliza*/
+        }
+
+        .container {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .buttons {
+            margin: 30px 0;
+            display: flex;
+            gap: 40px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 55px;
+            cursor: pointer;
+            border: none;
+            border-radius: 10px;
+            transition: opacty 0.5s ease-in-out;
+        }
+
+        #rock {
+            background-color: #34F504
+        }
+
+        #paper {
+            background-color: #00FFFF
+        }
+
+        #scissors {
+            background-color: #FF00DA
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+        p {
+            font-weight: bolder;
+            margin-bottom: 10px;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .your-score span {
+            color: #e100ff;
+        }
+
+        .machine-score span {
+            color: #2200ff;
+        }
