@@ -27,7 +27,7 @@ const playTheGame = (human, machine) => {
         ){
             humanScoreNumber++
             humanScore.innerHTML = humanScoreNumber
-            result.innerHTML = 'Voçê Ganhou'
+            result.innerHTML = 'Você Ganhou'
         }
     else{
         machineScoreNumber++
